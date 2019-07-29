@@ -1,0 +1,187 @@
+html {
+    box-sizing: border-box;
+    font-family: arial;
+    background: #edf0f5;
+  }
+  
+  hr {
+    opacity: 0.4;
+  }
+  
+  .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .card {
+    border: 2px solid #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 340px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 7px rgba(0,0,0,0.3);
+  }
+  
+  .main-header {
+    color: #333;
+    margin: 0;
+  }
+  
+  .additional-info {
+    margin-top: 3px;
+    font-size: 0.9rem;
+    opacity: 0.5;
+  }
+  
+  .centered-icon {
+    text-align: center;
+  }
+  
+  .place-icon {
+    color: #00b8d4;
+    font-size: 2.5rem;
+  }
+  
+  .place {
+    letter-spacing: 0.02rem;
+    font-size: 1.1rem;
+  }
+  
+  .skills-title {
+    text-align: center;
+    font-size: 1.2rem;
+    letter-spacing: 0.04rem;
+  }
+  
+  .skills-enum {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 17.6px;
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  .skills-enum li {
+    letter-spacing: 0.02rem;
+    font-size: 0.9rem;
+  }
+  
+  .skill-icon {
+    color: #3fa553;
+  }
+  
+  .application-status {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    letter-spacing: 0.02rem;
+    font-size: 1.15rem;
+  }
+  
+  .arrow-down {
+    position: absolute;
+    bottom: 0;
+    font-size: 1.5rem;
+    color: #888;
+  }
+  
+  .sent-wrapper {
+    text-align: center;
+  }
+  
+  .sent-icon {
+    color: #59c06d;
+  }
+  
+  .pending-icon {
+    opacity: 0.5;
+  }
+  
+  .pending-icon span {
+    font-size: 0.85rem;
+  }
+
+  .paid-icon {
+    color: #59c06d;
+  }
+
+  .paid-icon span {
+      font-size: 0.85rem;
+  }
+
+  .submitted-icon {
+      color: #00c7e6;
+  }
+
+  .submitted-icon span {
+      font-size: 0.85rem;
+  }
+  
+  .taken-wrapper {
+    text-align: center;
+    color: #333;
+  }
+  
+  .taken-title {
+    font-size: 1.4rem;
+    letter-spacing: 0.04rem;
+    margin-bottom: 12px
+  }
+  
+  .taken-user {
+    letter-spacing: 0.02rem;
+    font-size: 1.1rem;
+    margin-top: 0;
+  }
+  
+  .taken-icon {
+    color: #00c7e6;
+  }
+  
+  .author-wrapper {
+    margin-top: 16px;
+    font-size: 0.75rem;
+    opacity: 0.4;
+    letter-spacing: 0.02rem;
+  }
+  
+  .author-wrapper div {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .author-name {
+    margin: 0 4px 0 0;
+  }
+  
+  .author-name span {
+    font-weight: bold;
+  }
+  
+  .author-date {
+    margin: 0;
+  }
+
+  @media screen and (max-width: 400px) {
+    .main-header,
+    .additional-info,
+    .place {
+        text-align: center;
+    }
+
+    .skills-enum {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .skills-enum li {
+        padding-bottom: 10px;
+    }
+    
+    .author-wrapper div {
+        justify-content: center;
+    } 
+
+  }
